@@ -1,0 +1,14 @@
+{
+   "name": "defender-game",
+   "version": "1.0.0",
+   "main": "index.js",
+   "scripts": {
+      "test": ""
+   },
+   "keywords": [
+      "game"
+   ],
+   "author": "demargorn",
+   "license": "ISC",
+   "description": "Browser based game"
+}

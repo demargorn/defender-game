@@ -3,12 +3,28 @@
    "version": "1.0.0",
    "main": "index.js",
    "scripts": {
-      "test": ""
+      "test": "",
+      "build": "babel src -d dist",
+      "lint": "eslint ./src/app.js"
    },
    "keywords": [
       "game"
    ],
    "author": "demargorn",
    "license": "ISC",
-   "description": "Browser based game"
+   "description": "Browser based game",
+   "devDependencies": {
+      "@babel/cli": "^7.24.8",
+      "@babel/core": "^7.25.2",
+      "@babel/eslint-parser": "^7.25.1",
+      "@babel/preset-env": "^7.25.3",
+      "@eslint/js": "^9.9.0",
+      "@stylistic/eslint-plugin-js": "^2.6.4",
+      "eslint": "^8.57.0",
+      "eslint-config-airbnb-base": "^15.0.0",
+      "globals": "^15.9.0"
+   },
+   "dependencies": {
+      "core-js": "^3.38.0"
+   }
 }

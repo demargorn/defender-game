@@ -60,7 +60,7 @@ export default [
          'max-len': ['error', { code: 120 }], // длинна строки, нет авто
          quotes: ['error', 'single'], // одинарные кавычки, авто
          'object-property-newline': ['error'], // разбиение объекта по строчно, авто
-         'array-bracket-spacing': ['error', 'always'],
+         'array-bracket-spacing': ['error', 'off'],
          'no-multiple-empty-lines': [
             'error',
             {
